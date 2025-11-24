@@ -147,14 +147,11 @@
 	bind 'set history-size 500'
 	bind 'set print-completions-horizontally on'
 	bind 'set show-all-if-ambiguous on'
+	bind 'set menu-complete-display-prefix on'
 
 # READLINE COMMAND 
 
 	bind 'TAB:menu-complete'
-	bind 'C-l:forward-char'
-	bind 'C-h:backward-char'
-	bind 'C-M-l:forward-word'
-	bind 'C-M-h:backward-word'
 	
 #	_spinner () {
 #		local i=0
