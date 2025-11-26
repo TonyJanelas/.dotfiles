@@ -10,9 +10,10 @@ end
 
 -- Colour Palette
 local colors = {
-	background = "#121212",
-	dark =       "#4E4E4E",
-	light =      "#898989",
+	black =      "#121212",
+	darkgrey =   "#212121",
+	grey =       "#4E4E4E", 
+	lightgrey =  "#898989",
 	white =      "#C4C4C4",
 
 	red =        "#AB3030",
@@ -26,17 +27,17 @@ local colors = {
 }
 
 -- UI Colours
-vim.api.nvim_set_hl(0, "LineNr", { fg = colors.dark })
-vim.api.nvim_set_hl(0, "CursorLineNr", { fg = colors.light })
-vim.api.nvim_set_hl(0, "CursorLine", { fg = colors.dark })
-vim.api.nvim_set_hl(0, "CursorColumn", { fg = colors.dark })
-vim.api.nvim_set_hl(0, "StatusLine", { fg = colors.dark, bg = colors.white })
-vim.api.nvim_set_hl(0, "StatusLineNC", { fg = colors.light, bg = colors.white })
-vim.api.nvim_set_hl(0, "Visual", { fg = colors.dark, bg = colors.light })
-vim.api.nvim_set_hl(0, "Search", { fg = colors.dark, bg = colors.light })
+vim.api.nvim_set_hl(0, "LineNr", { fg = colors.grey })
+vim.api.nvim_set_hl(0, "CursorLineNr", { fg = colors.lightgrey })
+vim.api.nvim_set_hl(0, "CursorLine", { bg = colors.darkgrey })
+vim.api.nvim_set_hl(0, "CursorColumn", { bg = colors.darkgrey })
+vim.api.nvim_set_hl(0, "StatusLine", { fg = colors.black, bg = colors.white })
+vim.api.nvim_set_hl(0, "StatusLineNC", { fg = colors.darkgrey, bg = colors.white })
+vim.api.nvim_set_hl(0, "Visual", { bg = colors.grey })
+vim.api.nvim_set_hl(0, "Search", { bg = colors.grey })
 
 -- Highlight Groups
-vim.api.nvim_set_hl(0, "Normal", { fg = colors.light, bg = colors.background })
+vim.api.nvim_set_hl(0, "Normal", { fg = colors.light, bg = colors.black })
 vim.api.nvim_set_hl(0, "Comment", { fg = colors.green })
 vim.api.nvim_set_hl(0, "String", { fg = colors.orange })
 vim.api.nvim_set_hl(0, "Number", { fg = colors.red })
