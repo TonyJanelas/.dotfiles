@@ -63,6 +63,7 @@
 		nnoremap <expr> N 'v:searchforward ? "N" : "n"'
 	"-------------------------------Leader---------------------------------"
 		nnoremap <leader>n :set nonumber! relativenumber!<CR>
+		nnoremap <leader>e :Explore<CR>
 	"------------------------------Windows---------------------------------"
 		nnoremap <C-j> <C-W><C-J>
 		nnoremap <C-k> <C-W><C-K>
