@@ -18,24 +18,25 @@ hi clear
 " pink:       "#BB3E96", -> 169
 
 "----=-----Group Links---=-------"
-hi! link CursorColumn   CursorLine
-hi! link Search         Visual
-hi! link Type           Identifier
-hi! link Special        Keyword
 hi! link LineNr         Cursor
-hi! link Conceal        Number
-hi! link Label          Number
 hi! link MoreMsg        Cursor
+hi! link SpecialKey     Cursor
+hi! link ColorColumn    CursorLine
+hi! link CursorColumn   CursorLine
 hi! link FoldColumn     Folded
 hi! link NonText        Folded
 hi! link Operator       Function
-hi! link PreProc        MatchParen
 hi! link QuickFixLine   Function
-hi! link SpecialKey     Cursor
+hi! link Type           Identifier
+hi! link Special        Keyword
 hi! link Statement      Keyword
+hi! link PreProc        MatchParen
 hi! link Terminal       Normal
+hi! link Conceal        Number
+hi! link Label          Number
 hi! link Todo           Number
 hi! link Underlined     SpellCap
+hi! link Search         Visual
 hi! link VisualNOS      Visual
 hi! link WildMenu       WarningMsg
 
@@ -44,10 +45,10 @@ hi Cursor          ctermfg=239       ctermbg=NONE       cterm=NONE
 hi CursorIM        ctermfg=NONE      ctermbg=245        cterm=NONE
 hi CursorLineNr    ctermfg=245       ctermbg=NONE       cterm=NONE
 hi CursorLine      ctermfg=NONE      ctermbg=235        cterm=NONE
-hi StatusLine      ctermfg=233       ctermbg=251        cterm=NONE
-hi StatusLineNC    ctermfg=235       ctermbg=251        cterm=NONE
 hi Directory       ctermfg=43        ctermbg=NONE       cterm=NONE
 hi SignColumn      ctermfg=NONE      ctermbg=57         cterm=NONE
+hi StatusLine      ctermfg=233       ctermbg=251        cterm=NONE
+hi StatusLineNC    ctermfg=235       ctermbg=251        cterm=NONE
 hi TabLine         ctermfg=233       ctermbg=235        cterm=NONE
 hi TabLineFill     ctermfg=NONE      ctermbg=233        cterm=NONE
 hi TabLineSel      ctermfg=233       ctermbg=245        cterm=NONE
@@ -55,20 +56,20 @@ hi VertSplit       ctermfg=239       ctermbg=NONE       cterm=NONE
  
 "-----------------------------Editor-----------------------------"
 hi Normal          ctermfg=251       ctermbg=233        cterm=NONE
-hi Comment         ctermfg=28        ctermbg=NONE       cterm=NONE
-hi String          ctermfg=166       ctermbg=NONE       cterm=NONE
-hi Number          ctermfg=88        ctermbg=NONE       cterm=NONE
 hi Boolean         ctermfg=57        ctermbg=NONE       cterm=NONE
-hi Identifier      ctermfg=43        ctermbg=NONE       cterm=NONE
+hi Comment         ctermfg=28        ctermbg=NONE       cterm=NONE
 hi Function        ctermfg=178       ctermbg=NONE       cterm=NONE
+hi Identifier      ctermfg=43        ctermbg=NONE       cterm=NONE
 hi Keyword         ctermfg=169       ctermbg=NONE       cterm=NONE
+hi Number          ctermfg=88        ctermbg=NONE       cterm=NONE
+hi String          ctermfg=166       ctermbg=NONE       cterm=NONE
 hi EndOfBuffer     ctermfg=233       ctermbg=NONE       cterm=NONE
-hi Visual          ctermfg=NONE      ctermbg=239        cterm=NONE
 hi Folded          ctermfg=245       ctermbg=NONE       cterm=NONE
 hi Ignore          ctermfg=235       ctermbg=NONE       cterm=NONE
 hi IncSearch       ctermfg=235       ctermbg=178        cterm=NONE
 hi MatchParen      ctermfg=91        ctermbg=NONE       cterm=NONE
 hi ModeMsg         ctermfg=NONE      ctermbg=NONE       cterm=NONE
+hi Visual          ctermfg=NONE      ctermbg=239        cterm=NONE
 
 "----------------------------Diff Mode---------------------------"
 hi DiffAdd         ctermfg=28        ctermbg=NONE       cterm=NONE
