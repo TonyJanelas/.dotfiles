@@ -17,7 +17,7 @@ hi clear
 " purple:     "#8438B2", -> 91
 " pink:       "#BB3E96", -> 169
 
-"----=-----Group Links---=-------"
+"----------Group Links-----------"
 hi! link LineNr         Cursor
 hi! link MoreMsg        Cursor
 hi! link SpecialKey     Cursor
@@ -41,58 +41,58 @@ hi! link VisualNOS      Visual
 hi! link WildMenu       WarningMsg
 
 "-------------------------------UI-------------------------------"
-hi Cursor          ctermfg=239       ctermbg=NONE       cterm=NONE
-hi CursorIM        ctermfg=NONE      ctermbg=245        cterm=NONE
-hi CursorLineNr    ctermfg=245       ctermbg=NONE       cterm=NONE
-hi CursorLine      ctermfg=NONE      ctermbg=235        cterm=NONE
-hi Directory       ctermfg=43        ctermbg=NONE       cterm=NONE
-hi SignColumn      ctermfg=NONE      ctermbg=57         cterm=NONE
-hi StatusLine      ctermfg=233       ctermbg=251        cterm=NONE
-hi StatusLineNC    ctermfg=235       ctermbg=251        cterm=NONE
-hi TabLine         ctermfg=233       ctermbg=235        cterm=NONE
-hi TabLineFill     ctermfg=NONE      ctermbg=233        cterm=NONE
-hi TabLineSel      ctermfg=233       ctermbg=245        cterm=NONE
-hi VertSplit       ctermfg=239       ctermbg=NONE       cterm=NONE
- 
+hi Cursor          ctermfg=grey      ctermbg=NONE      cterm=NONE
+hi CursorIM        ctermfg=NONE      ctermbg=lightgrey cterm=NONE
+hi CursorLineNr    ctermfg=lightgrey ctermbg=NONE      cterm=NONE
+hi CursorLine      ctermfg=NONE      ctermbg=darkgrey  cterm=NONE
+hi Directory       ctermfg=lightblue ctermbg=NONE      cterm=NONE
+hi SignColumn      ctermfg=NONE      ctermbg=blue      cterm=NONE
+hi StatusLine      ctermfg=black     ctermbg=white     cterm=NONE
+hi StatusLineNC    ctermfg=darkgrey  ctermbg=white     cterm=NONE
+hi TabLine         ctermfg=black     ctermbg=darkgrey  cterm=NONE
+hi TabLineFill     ctermfg=NONE      ctermbg=black     cterm=NONE
+hi TabLineSel      ctermfg=black     ctermbg=lightgrey cterm=NONE
+hi VertSplit       ctermfg=grey      ctermbg=NONE      cterm=NONE
+
 "-----------------------------Editor-----------------------------"
-hi Normal          ctermfg=251       ctermbg=233        cterm=NONE
-hi Boolean         ctermfg=57        ctermbg=NONE       cterm=NONE
-hi Comment         ctermfg=28        ctermbg=NONE       cterm=NONE
-hi Function        ctermfg=178       ctermbg=NONE       cterm=NONE
-hi Identifier      ctermfg=43        ctermbg=NONE       cterm=NONE
-hi Keyword         ctermfg=169       ctermbg=NONE       cterm=NONE
-hi Number          ctermfg=88        ctermbg=NONE       cterm=NONE
-hi String          ctermfg=166       ctermbg=NONE       cterm=NONE
-hi EndOfBuffer     ctermfg=233       ctermbg=NONE       cterm=NONE
-hi Folded          ctermfg=245       ctermbg=NONE       cterm=NONE
-hi Ignore          ctermfg=235       ctermbg=NONE       cterm=NONE
-hi IncSearch       ctermfg=235       ctermbg=178        cterm=NONE
-hi MatchParen      ctermfg=91        ctermbg=NONE       cterm=NONE
-hi ModeMsg         ctermfg=NONE      ctermbg=NONE       cterm=NONE
-hi Visual          ctermfg=NONE      ctermbg=239        cterm=NONE
+hi Normal          ctermfg=white     ctermbg=black     cterm=NONE
+hi Boolean         ctermfg=blue      ctermbg=NONE      cterm=NONE
+hi Comment         ctermfg=green     ctermbg=NONE      cterm=NONE
+hi Function        ctermfg=yellow    ctermbg=NONE      cterm=NONE
+hi Identifier      ctermfg=lightblue ctermbg=NONE      cterm=NONE
+hi Keyword         ctermfg=pink      ctermbg=NONE      cterm=NONE
+hi Number          ctermfg=red       ctermbg=NONE      cterm=NONE
+hi String          ctermfg=orange    ctermbg=NONE      cterm=NONE
+hi EndOfBuffer     ctermfg=black     ctermbg=NONE      cterm=NONE
+hi Folded          ctermfg=lightgrey ctermbg=NONE      cterm=NONE
+hi Ignore          ctermfg=darkgrey  ctermbg=NONE      cterm=NONE
+hi IncSearch       ctermfg=darkgrey  ctermbg=yellow    cterm=NONE
+hi MatchParen      ctermfg=purple    ctermbg=NONE      cterm=NONE
+hi ModeMsg         ctermfg=NONE      ctermbg=NONE      cterm=NONE
+hi Visual          ctermfg=NONE      ctermbg=grey      cterm=NONE
 
 "----------------------------Diff Mode---------------------------"
-hi DiffAdd         ctermfg=28        ctermbg=NONE       cterm=NONE
-hi DiffChange      ctermfg=166       ctermbg=NONE       cterm=NONE
-hi DiffDelete      ctermfg=88        ctermbg=NONE       cterm=NONE
-hi DiffText        ctermfg=NONE      ctermbg=239        cterm=NONE
+hi DiffAdd         ctermfg=green     ctermbg=NONE      cterm=NONE
+hi DiffChange      ctermfg=orange    ctermbg=NONE      cterm=NONE
+hi DiffDelete      ctermfg=red       ctermbg=NONE      cterm=NONE
+hi DiffText        ctermfg=NONE      ctermbg=grey      cterm=NONE
 
 "-----------------------------Alerts-----------------------------"
-hi Error           ctermfg=251       ctermbg=88         cterm=NONE
-hi ErrorMsg        ctermfg=251       ctermbg=88         cterm=NONE
-hi Question        ctermfg=251       ctermbg=NONE       cterm=NONE
-hi WarningMsg      ctermfg=233       ctermbg=178        cterm=NONE
+hi Error           ctermfg=white       ctermbg=red     cterm=NONE
+hi ErrorMsg        ctermfg=white       ctermbg=red     cterm=NONE
+hi Question        ctermfg=white       ctermbg=NONE    cterm=NONE
+hi WarningMsg      ctermfg=black       ctermbg=yellow  cterm=NONE
 
 "---------------------------Popup Menu---------------------------"
-hi Pmenu           ctermfg=251       ctermbg=235        cterm=NONE
-hi PmenuMatch      ctermfg=251       ctermbg=235        cterm=bold
-hi PmenuMatchSel   ctermfg=233       ctermbg=239        cterm=bold
-hi PmenuSbar       ctermfg=NONE      ctermbg=233        cterm=NONE
-hi PmenuSel        ctermfg=233       ctermbg=239        cterm=NONE
-hi PmenuThumb      ctermfg=NONE      ctermbg=239        cterm=NONE
+hi Pmenu           ctermfg=white     ctermbg=darkgrey  cterm=NONE
+hi PmenuMatch      ctermfg=white     ctermbg=darkgrey  cterm=bold
+hi PmenuMatchSel   ctermfg=black     ctermbg=grey      cterm=bold
+hi PmenuSbar       ctermfg=NONE      ctermbg=black     cterm=NONE
+hi PmenuSel        ctermfg=black     ctermbg=grey      cterm=NONE
+hi PmenuThumb      ctermfg=NONE      ctermbg=grey      cterm=NONE
 
 "-----------------------------Spelling--------------------------------"
-hi SpellBad        ctermfg=88        ctermbg=NONE       cterm=underline
-hi SpellCap        ctermfg=251       ctermbg=NONE       cterm=underline
-hi SpellLocal      ctermfg=178       ctermbg=NONE       cterm=underline
-hi SpellRare       ctermfg=169       ctermbg=NONE       cterm=underline
+hi SpellBad        ctermfg=red       ctermbg=NONE       cterm=underline
+hi SpellCap        ctermfg=white     ctermbg=NONE       cterm=underline
+hi SpellLocal      ctermfg=yellow    ctermbg=NONE       cterm=underline
+hi SpellRare       ctermfg=pink      ctermbg=NONE       cterm=underline

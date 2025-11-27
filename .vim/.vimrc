@@ -42,9 +42,8 @@
 		set showcmd
 		set termguicolors
 		set title
-		set titlestring=Vim: %f
+		set titlestring="Vim: %f"
 	"---------------------Editor---------------------"
-		set colorcolumn=80
 		set cursorcolumn
 		set cursorline
 		set listchars=tab:->,space:·,eol:$,trail:~
