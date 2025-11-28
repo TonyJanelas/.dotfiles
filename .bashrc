@@ -137,8 +137,9 @@
 
 # SHELL OPTIONS
 
-	shopt -s cdspell
-	shopt -s dirspell
+	shopt -s dotglob
+	shopt -s globstar
+	shopt -s histappend
 	
 # READLINE VARIABLES
 
