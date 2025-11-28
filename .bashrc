@@ -99,8 +99,14 @@
 				day = pink sprintf("%-2s", fields[7]) white
 				month = pink fields[6] white
 				time = pink sprintf("%-5s", fields[8]) white
-				file = blue fields[9] white
 
+				file = blue fields[9]
+				if (NF > 9) {
+					file = file " " pink "->" white
+					for (j = 10; j <= NF; j++)
+						file = file pink " " fields[j] white
+				}
+				
 				printf " %s %s %s %s %s %s %s\n", prms, owner, size, day, month, time, file
 			}
 		}
